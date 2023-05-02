@@ -1,0 +1,22 @@
+@import url(home.css/cabecalho.css);
+@import url(home.css/banner.css);
+@import url(home.css/sobre.css);
+@import url(home.css/mapa.css);
+@import url(home.css/beneficios.css);
+@import url(home.css/video.css);
+@import url(home.css/rodape.css);
+@import url(produtos.css/conteudo.css);
+@import url(contato.css/formulario.css);
+
+                                :root {
+                
+    --font-principal: 'Montserrat', sans-serif;
+    --cor-cabecalho: #BBBBBB;
+    --cor-clique: #c1981d;
+    --branco: white;
+
+}
+
+.main {
+    background-image: linear-gradient(#FEFEFE, #888888);
+}

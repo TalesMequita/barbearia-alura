@@ -1,0 +1,87 @@
+.pagina__toda {
+    width: auto;
+    margin: 0 20vw;
+    padding: 2em 0;
+}
+
+.formulario__pagina {
+    font-family: var(--font-principal);
+    font-weight: 700;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {  
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 50%;
+    padding: 15px 0;
+    font-weight: bold;
+    background: var(--cor-clique);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: orange;
+    transform: scale(1.1);
+}
+
+
+table {
+    margin: 20px 0 40px;
+    width: 50%;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+    font-family: var(--font-principal);
+}
+
+td,th {
+    border: 1px solid #000000;
+    padding: 8px 20px;
+    text-align: center;
+    font-family: var(--font-principal);
+    font-weight: 600;
+}
+
+@media screen and (max-width: 414px) {
+
+    .pagina__toda {
+        width: 90%;
+        padding: 1em 0 0 1em;
+        margin: 0 1em;
+    }
+
+    .input-padrao {
+        width: 90%;
+        margin: 0 0 10px 0;
+    }
+
+    table {
+        width: 90%;
+        margin: 1em 0;
+    }
+
+}

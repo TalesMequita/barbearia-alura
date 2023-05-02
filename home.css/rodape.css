@@ -1,0 +1,31 @@
+footer {
+    text-align: center;
+    background: url(../imagens2/bg.jpg);
+    padding: 1em 0;
+}
+
+
+.copyright__home {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2em;
+    font-family: var(--font-principal);
+    font-weight: 500;
+    color: var(--branco);
+}
+
+.logo__rodape-home{
+    padding-top: 2em;
+}
+
+@media screen and (max-width: 414px) {
+    
+    .copyright__home  {
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+    .logo__rodape-home {
+        display: none;
+    }
+}
