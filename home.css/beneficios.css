@@ -63,12 +63,12 @@
 
     .itens__beneficios {
         line-height: 2em;
-        margin-left: 1em;
     }
 
     .lista__beneficios {
-        width: 100%;
+        width: 90%;
         margin-bottom: 0.5em;
+        margin-left: 0.5em;
     }
 
 }
