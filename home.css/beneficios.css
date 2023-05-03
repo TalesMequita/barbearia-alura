@@ -28,7 +28,7 @@
 }
 
 .itens__beneficios:before{
-    content: "🟊";
+    content: \2605;
 }
 
 .itens__beneficios:nth-child(1){
