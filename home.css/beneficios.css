@@ -25,7 +25,6 @@
 
 .itens__beneficios{
     line-height: 1.5em;
-    margin-left: 1em;
 }
 
 .itens__beneficios:before{
@@ -64,6 +63,7 @@
 
     .itens__beneficios {
         line-height: 2em;
+        margin-left: 1em;
     }
 
     .lista__beneficios {
