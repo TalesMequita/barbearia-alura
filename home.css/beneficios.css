@@ -25,6 +25,7 @@
 
 .itens__beneficios{
     line-height: 1.5em;
+    margin-left: 1em;
 }
 
 .itens__beneficios:before{
